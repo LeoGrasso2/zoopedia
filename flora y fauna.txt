@@ -1,0 +1,41 @@
+NOA:
+Fauna:
+	- Vicuña
+	- Gato montés
+	- Víbora coral
+	- Surí (ñandú)
+	- Ucumari (oso de anteojos)
+	- Yacú / charata
+	- Taruca
+	- Quirquincho
+	- Mara
+	- Cóndor real
+
+Flora:
+	- Cardón
+	- Anguña
+	- Laurel de centro
+	- Quebracho
+	- Cedro de monte
+
+--------------------------------------
+
+Chaco:
+Fauna:
+	- Mataco bola
+	- Surubí
+	- Pecarí chaqueño
+	- Conejo de los palos
+	- Carpincho
+	- Yacaré
+	- Corzuela parda
+	- Tamaduá
+	- Pecarí de collar
+	- Urataú / kakuy (adjunto despues mp3 del canto)
+
+Flora:
+	- Palo borracho
+	- Lapacho negro
+	- Chañar
+	- Mistol
+	- Espinillo
