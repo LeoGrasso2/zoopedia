@@ -203,8 +203,11 @@ ul{
     animation-duration: 1s;
 }
 .cuerpoTotal{
+    display: flex;
     margin-left: 60px;
     padding: 20px;
+    justify-content: center;
+    height: 100%;
 }
 .textoPrueba{
     display: flex;
@@ -221,7 +224,7 @@ ul{
 /* MAPA SVG */
 .mapa{
     width:480px;
-    height:650px;
+    height:900px;
 }
 path{
     fill:white;
@@ -232,6 +235,51 @@ path:hover{
     stroke:#117f5a;
     transition: .2s;
     fill:#117f5a; 
+}
+
+/* card info */
+
+.card-total{
+    display: flex;
+    max-width: 400px;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 800px;
+    max-height: 300px;
+    background-color: #18b37f;
+}
+hr{
+    border:none;
+    height: 1px;
+    background-color: #117f5a;
+}
+.card-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-left-img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.card-right-title{
+    border-top-right-radius: 15px;
+    background-image: url('/res/img/zebra.svg');
+    background-size: 300px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #117f5a;
+}
+.card-left-title-sub{
+    font-size: 10px;
+}
+.card-right-body{
+    text-align: justify;
+    padding: 15px;
 }
 @media (max-height: 760px){
     .mapa{
