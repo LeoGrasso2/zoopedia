@@ -35,7 +35,9 @@
     <script src="../js/main.js">
     </script>
     <script>
-    for(let i=0; i<Object.keys(animales.noa).length; i++){
-        addCard(animales.noa.vicuna);
-    }</script>
+        let lista = Object.keys(animales.noa);
+        lista.forEach((animal, i) => {
+            addCard(animales.noa[animal])
+        })
+    </script>
     </body>

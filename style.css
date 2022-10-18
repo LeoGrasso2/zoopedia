@@ -206,6 +206,7 @@ ul{
     display: flex;
     margin-left: 60px;
     padding: 20px;
+    flex-direction: column;
     justify-content: center;
     height: 100%;
 }
@@ -264,10 +265,11 @@ hr{
     height: 300px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    user-select: none;
 }
 .card-right-title{
     border-top-right-radius: 15px;
-    background-image: url('/res/img/zebra.svg');
+    background-image: url('../res/img/zebra.svg');
     background-size: 300px;
     padding: 10px;
     font-size: 24px;
@@ -288,3 +290,4 @@ hr{
     }
     
 }
+

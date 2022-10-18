@@ -7,10 +7,9 @@ let animales = {
         info: "Labore distinctio reprehenderit quod ullam aut nihil aliquam accusantium non? Libero, tempore magnam numquam repellendus impedit quod ab fuga dolores ut ex ipsam, asperiores possimus nesciunt minima modi dolorum! Earum.",
         img: "..\\res\\img\\animals\\noa\\vicuna.png",
         }
+
     }
 }
-
-console.log(Object.keys(animales.noa).length);
 
 window.transitionToPage = function(href) {
     document.querySelector('body').style.opacity = 0
