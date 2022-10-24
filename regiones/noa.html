@@ -28,16 +28,23 @@
         
     </nav>
     <div class="cuerpoTotal">
-        <div class="animalCards">
+        <div id="sliderTotal">
+            <div id="prevBtn"><</div>
+            <div class="cards-wrapper">
+            <div class="animalCards">
+
+            </div>
+        </div>  
+            <div id="nextBtn">></div>
         </div>
+    </div>
 
     </div>
     <script src="../js/main.js">
     </script>
     <script>
         let lista = Object.keys(animales.noa);
-        lista.forEach((animal, i) => {
-            addCard(animales.noa[animal])
-        })
+        slider('noa');
+        
     </script>
     </body>
