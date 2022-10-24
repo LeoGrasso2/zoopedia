@@ -217,11 +217,14 @@ ul{
     align-items: center;
     min-height: 100%;
     width: 100%;
+    background-image: url('res/img/leaves.png');
+    background-size: 800px;
 }
 .animalCards{
     display: flex;
 }
 .cards-wrapper{
+    max-width: 1000px;
     overflow: hidden;
 }
 .textoPrueba{
@@ -259,8 +262,8 @@ path:hover{
     font-size: 1em;
     background-color: white;
     border-radius: 15px;
-    width: 800px;
-    height: 300px;
+    min-width: 1000px;
+    height: 600px;
     background-color: #18b37f;
 }
 hr{
@@ -277,9 +280,19 @@ hr{
     width: 300px;
     height: 300px;
     border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
     object-fit:cover;
     user-select: none;
+}
+.card-left-facts{
+    margin:10px 0px 0px 15px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+}
+.card-left-facts img{
+    width: 270px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 .card-right{
     min-width: 500px;
@@ -289,15 +302,16 @@ hr{
     background-image: url('../res/img/zebra.svg');
     background-size: 300px;
     padding: 10px;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
     background-color: #117f5a;
 }
 .card-left-title-sub{
-    font-size: 10px;
+    font-size: 16px;
 }
 .card-right-body{
     text-align: justify;
+    font-size: 18px;
     padding: 15px;
 }
 @media (max-height: 760px){
@@ -312,7 +326,6 @@ hr{
 
 #sliderTotal{
     display: flex;
-    max-width: 920px;
     flex-direction: row;
     align-items: center;
 }
@@ -321,58 +334,21 @@ hr{
     margin: 20px;
     background-color: #18b37f;
     padding: 5px;
+    user-select: none;
     border-radius: 20%;
 }
+
 #nextBtn:hover, #prevBtn:hover{
     cursor: pointer;
 }
 
-.animalCards.slideLeft{
-    transform: translateX(-800px);
-}
-.animalCards.slideRight{
-    margin: 10px;
-    animation: slide-right 2s linear both;
+/* slider imgs */
+
+.card-right-img-slider-wrapper{
+    display: flex;
+    flex-direction: row;
 }
 
-@keyframes slide-left {
-    0% {
-        transform: translateX(0px);
-    }
-    20% {
-        transform: translateX(-163.2px)
-    }
-    40% {
-        transform: translateX(-326.4px)
-    }
-    60% {
-        transform: translateX(-489.6px)
-    }
-    80% {
-        transform: translateX(-652.8px)
-    }
-    100% {
-        transform: translateX(-816px)
-    }
-}
-
-@keyframes slide-right {
-    0% {
-        transform: translateX(0px);
-    }
-    20% {
-        transform: translateX(163.2px)
-    }
-    40% {
-        transform: translateX(326.4px)
-    }
-    60% {
-        transform: translateX(489.6px)
-    }
-    80% {
-        transform: translateX(652.8px)
-    }
-    100% {
-        transform: translateX(816px)
-    }
+.card-right-img-slider-element{
+    width: 300px;
 }
