@@ -263,7 +263,6 @@ path:hover{
     background-color: white;
     border-radius: 15px;
     min-width: 1000px;
-    height: 600px;
     background-color: #18b37f;
 }
 hr{
@@ -295,11 +294,13 @@ hr{
     margin-bottom: 10px;
 }
 .card-right{
+    display: flex;
+    flex-direction: column;
     min-width: 500px;
 }
 .card-right-title{
     border-top-right-radius: 15px;
-    background-image: url('../res/img/zebra.svg');
+    background-image: url('./res/img/zebra.svg');
     background-size: 300px;
     padding: 10px;
     font-size: 36px;
@@ -309,9 +310,15 @@ hr{
 .card-left-title-sub{
     font-size: 16px;
 }
+.card-right-desc{
+    max-height: 160px;
+    overflow-x:hidden;
+    padding: 10px;
+}
 .card-right-body{
     text-align: justify;
     font-size: 18px;
+    height: 502px;
     padding: 15px;
 }
 @media (max-height: 760px){
@@ -344,11 +351,35 @@ hr{
 
 /* slider imgs */
 
+.card-right-img-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-right-img-slider-prevBtn, .card-right-img-slider-nextBtn{
+    cursor: pointer;
+    user-select: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20%;
+    background-color:#139b6d;
+}
+.card-right-img-slider-container{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
 .card-right-img-slider-wrapper{
+    align-items: center;
     display: flex;
     flex-direction: row;
+    max-width:500px;
+
 }
 
-.card-right-img-slider-element{
-    width: 300px;
+.card-right-img-slider-element img{
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    object-fit:cover;
 }
