@@ -44,7 +44,15 @@ let animales = {
             slide1: "..\\res\\img\\animals\\noa\\condor_andino\\1.png",
             slide2: "..\\res\\img\\animals\\noa\\condor_andino\\2.png",
         },
-        }
+        },
+    huemul: {
+        id:3,
+        name: "Huemul",
+        name_sci: "Hippocamelus bisulcus",
+        desc:"El huemul, como su pariente filogenético, la taruca, tiene un cuerpo rechoncho, robusto y patas cortas. Alcanza un tamaño de hasta 165 cm de longitud y hasta 170 cm de altura contando las astas, siendo las hembras un poco más pequeñas que los machos. Su pelaje es grueso, denso y de color beige o café oscuro, según la época del año.<br>Sus orejas y su cola, miden entre 10 y 20 cm de largo. Los machos poseen un par de astas bifurcadas que pueden alcanzar hasta 30 cm de longitud. Su peso ronda entre los 40 y 100 kg. que se alimenta principalmente de arbustos, hierbas y brotes de árboles",
+        img:"..\\res\\img\\animals\\noa\\huemul\\huemul.png",
+        fact1: "Se alimenta principalmente de arbustos, hierbas y brotes de árboles."
+    }
     }
 }
 
