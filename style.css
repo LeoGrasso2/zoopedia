@@ -15,7 +15,7 @@ body{
 
 .baseNavbar{
     display: flex;
-    position: absolute;
+    position: fixed;
     width: min-content;
     height: 100%;
     background-color: #18b37f;
@@ -210,7 +210,6 @@ ul{
 }
 .cuerpoTotal{
     display: flex;
-    margin-left: 60px;
     padding: 20px;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +217,7 @@ ul{
     min-height: 100%;
     width: 100%;
     background-image: url('res/img/leaves.png');
-    background-size: 800px;
+    background-size: 1500px;
 }
 .animalCards{
     display: flex;
@@ -293,6 +292,10 @@ hr{
     height: 50px;
     margin-bottom: 10px;
 }
+.card-left-facts li {
+    justify-content: flex-start;
+}
+
 .card-right{
     display: flex;
     flex-direction: column;
@@ -340,7 +343,7 @@ hr{
 #nextBtn, #prevBtn{
     margin: 20px;
     background-color: #18b37f;
-    padding: 5px;
+    padding: 10px;
     user-select: none;
     border-radius: 20%;
 }
