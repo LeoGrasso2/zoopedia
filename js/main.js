@@ -155,9 +155,87 @@ let animales = {
     
 
     },
+    sierraspampeanas:{
+    alpaca:{
+        id: 0,
+        name: "Alpaca",
+        name_sci: "Vicugna pacos",
+        desc: "Su altura en la cruz es de 90 cm. La estatura de la alpaca es considerablemente menor que la de la llama, compartiendo con esta y con el camello el hábito de escupir, utilizado para mostrar agresividad o como método de defensa.No se utilizan como animales de carga, como las llamas. Han sido seleccionadas para la producción de fibra, cuyo diámetro varía de 12 a 28 micrómetros, las cuales son muy utilizadas para confeccionar prendas de excelente calidad.",
+        img: "..\\res\\img\\animals\\sierraspampeanas\\alpaca\\alpaca.png",
+        fact1: "Es un animal exclusivamente herbívoro y su dieta está compuesta de pasto, heno, tallos, cortezas, hojas de árboles y especies de gramíneas.",
+        fact2: "Tiene un promedio de vida de 11 años, aunque puede alcanzar los 20.",
+        fact3: "Las alpacas pesan entre 45 y 77 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\sierraspampeanas\\alpaca\\0.png",
+            slide1: "..\\res\\img\\animals\\sierraspampeanas\\alpaca\\1.png",
+            slide3: "..\\res\\img\\animals\\sierraspampeanas\\alpaca\\2.png",
+        },
+    },
+    boa_vizcacheras:{
+        id: 1,
+        name: "Boa de las vizcacheras",
+        name_sci: "Boa constrictor occidentalis",
+        desc: "Boa constrictor occidentalis, llamada comúnmente boa de las vizcacheras o Lampalagua, es un gran ofidio que se distribuye en áreas boscosas semiáridas del centro-sur de América del Sur. De las subespecies de Boa constrictor es la más austral, así como también lo es de entre todos los Boidos del mundo.<br>El largo de estas puede sobrepasar los 400 cm, y superar los 18 kg, aunque son más habituales los ejemplares de entre 300 y 350 cm. Los machos es raro que superen los 240 cm. ",
+        img: "..\\res\\img\\animals\\sierraspampeanas\\boa_vizcacheras\\boa_vizcacheras.png",
+        fact1: "Su dieta se compone de lagartos colorados (Salvator rufescens) y de animales de sangre caliente, como aves y pequeños mamíferos.",
+        fact2: "En la naturaleza es raro que vivan más de veinte años, aunque en cautividad pueden alcanzar los treinta con relativa facilidad.",
+        fact3: "Pueden llegar a superar los 18 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\sierraspampeanas\\boa_vizcacheras\\0.png",
+            slide1: "..\\res\\img\\animals\\sierraspampeanas\\boa_vizcacheras\\1.png",
+            slide3: "..\\res\\img\\animals\\sierraspampeanas\\boa_vizcacheras\\2.png",
+        },
+    },
+        chinchilla:{
+        id: 2,
+        name: "Chinchilla",
+        name_sci: "Chinchilla",
+        desc: "Es de tamaño pequeño y aspecto rechoncho. Los ojos son grandes y las orejas relativamente largas y redondeadas. El hocico es corto y tiene numerosas vibrisas largas. Las patas son muy cortas, en especial las delanteras; todas poseen 4 dedos con uñas débiles. La cola es corta y está cubierta por abundantes pelos más largos y duros que los del cuerpo. El pelaje es muy denso, corto y afelpado. Su coloración es gris plateada o ligeramente pardusca, más oscura en el dorso y blancuzca en el vientre y las patas. La hembra es más grande que el macho.        ",
+        img: "..\\res\\img\\animals\\sierraspampeanas\\chinchilla\\chinchilla.png",
+        fact1: "Las chinchillas se comen cualquier vegetal comestible, pero a veces también pueden consumir insectos.",
+        fact2: "Las chinchillas domésticas viven 12 – 15 años de media.",
+        fact3: "Suele pesar entre unos 750 – 1900 gr.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\sierraspampeanas\\chinchilla\\0.png",
+            slide1: "..\\res\\img\\animals\\sierraspampeanas\\chinchilla\\1.png",
+            slide3: "..\\res\\img\\animals\\sierraspampeanas\\chinchilla\\2.png",
+        },
+    },
+    gato_andino:{
+        id: 3,
+        name: "Gato Andino",
+        name_sci: "Leopardus jacobita",
+        desc: "El Gato Andino es un felino mediano, con un tamaño aproximado que dobla al del gato doméstico. Tiene un largo que oscila entre los 57 y los 65 cm a los que hay que sumar entre 42 y 48 cm correspondientes a la cola.<br>Presenta un pelaje muy largo y grueso, especialmente en lo dorsal, y un diseño que consiste en manchas color café amarillentas con forma variable de fajas, estrías o puntos sobre un fondo grisáceo o plomizo, que se disponen de manera vertical en ambos flancos del cuerpo, dando la apariencia de franjas continuas.",
+        img: "..\\res\\img\\animals\\sierraspampeanas\\gato_andino\\gato_andino.png",
+        fact1: "La dieta del Gato Andino está basada mayormente en mamíferos roedores",
+        fact2: "Llega a vivir hasta 16 años en cautividad.",
+        fact3: "Suele pesar entre unos 7kg y 8kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\sierraspampeanas\\gato_andino\\0.png",
+            slide1: "..\\res\\img\\animals\\sierraspampeanas\\gato_andino\\1.png",
+            slide3: "..\\res\\img\\animals\\sierraspampeanas\\gato_andino\\2.png",
+        },
+    },
+    aguila_peregrina:{
+        id: 4,
+        name: "Aguila Peregrina",
+        name_sci: "Falco peregrinus",
+        desc: "La espalda y las largas y puntiagudas alas de los adultos varían generalmente de un negro azulado a un gris pizarra con barras oscuras indistintas; los extremos de las alas son negros.​ El vientre y la zona interna de las alas varían de color blanco a oxidado y con finas barras limpias de color marrón oscuro o negro. La cola, coloreada como la espalda pero con barras limpias y finas, es larga, estrecha y redondeada al final con la punta negra y una banda blanca en su extremo.",
+        img: "..\\res\\img\\animals\\sierraspampeanas\\aguila_peregrina\\aguila_peregrina.png",
+        fact1: "Se alimenta casi exclusivamente de aves de tamaño medio, como patos, gaviotas, pájaros cantores y palomas",
+        fact2: "Los peregrinos pueden vivir hasta los 12 a 15 años de edad.",
+        fact3: "Los machos pesan entre 440g y 750g, mientras que las hembras, notablemente mayores, pesan entre 910g y 1500g",
+        slide: {
+            slide0: "..\\res\\img\\animals\\sierraspampeanas\\aguila_peregrina\\0.png",
+            slide1: "..\\res\\img\\animals\\sierraspampeanas\\aguila_peregrina\\1.png",
+            slide3: "..\\res\\img\\animals\\sierraspampeanas\\aguila_peregrina\\2.png",
+        },
+    },
+    },
+    
 }
 
-let regiones= ['chaco', 'cuyo', 'mesopotamia', 'noa', 'pampaHumeda', 'pampaSeca', 'patagonia', 'sierrasPampeanas'];
+let regiones= ['chaco', 'cuyo', 'mesopotamia', 'noa', 'pampaHumeda', 'pampaSeca', 'patagonia', 'sierraspampeanas'];
 let pagActual = (location.href.split("/").slice(-1))[0];
 pagActual = pagActual.slice(0, pagActual.length - 5);
 console.log(pagActual);
