@@ -1,0 +1,15 @@
+ANIMAL: {
+        id: ,
+        name: "",
+        name_sci: "",
+        desc: "",
+        img: "..\\res\\img\\animals\\",
+        fact1: "",
+        fact2: "",
+        fact3: "",
+        slide: {
+            slide0: "..\\res\\img\\animals\\",
+            slide1: "..\\res\\img\\animals\\",
+            slide3: "..\\res\\img\\animals\\",
+        }
+        },

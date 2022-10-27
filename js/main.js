@@ -90,9 +90,70 @@ let animales = {
             slide0: "..\\res\\img\\animals\\chaco\\nandu\\0.png",
             slide1: "..\\res\\img\\animals\\chaco\\nandu\\1.png",
             slide3: "..\\res\\img\\animals\\chaco\\nandu\\2.png",
-        },
-    
+        },  
     },
+    pecari: {
+        id: 1,
+        name: "Pecarí",
+        name_sci: "Catagonus wagneri",
+        desc: "A menudo, la gente confunde al pecarí con especies porcinas que fueron introducidas en América por los colonos europeos y que, al paso del tiempo, escaparon de las granjas, haciéndose salvajes y asilvestrados. Los pecaríes tienen colmillos que no sobresalen de su boca. Los colmillos de los jabalíes y los cerdos son largos y se curvan hacia atrás, mientras que los pecaríes tienen colmillos cortos y rectos.<br>Poseen glándulas odoríferas en el lomo y debajo de cada ojo. Estas tienen la función de secretar un líquido los pecaríes usan para marcar los territorios de sus rebañosTambién usan estas glándulas para marcar a los demás miembros del rebaño al que pertenecen, frotándose unos contra otros. Al hacer esto, todo el rebaño queda impregnado de un olor penetrante que permite a cada individuo reconocer a los otros, algo que contrarresta su mala vista.",
+        img: "..\\res\\img\\animals\\chaco\\pecari\\pecari.png",
+        fact1: "Principalmente se alimenta de vegetales como bayas, brotes, tubérculos y bulbos; pero tambien de larvas, gusanos y vertebrados pequeños como serpientes y lagartijas.",
+        fact2: "Viven de 15 a 20 años.",
+        fact3: "Tienen un peso de 20 a 30 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\chaco\\pecari\\0.png",
+            slide1: "..\\res\\img\\animals\\chaco\\pecari\\1.png",
+            slide3: "..\\res\\img\\animals\\chaco\\pecari\\2.png",
+        }
+    },
+    tapir: {
+        id: 2,
+        name: "Tapir",
+        name_sci: "Tapirus terrestris",
+        desc: "Son animales de tamaño mediano, con una longitud que varía desde el 1,8 m hasta los 2,5 m, con una cola de 5 a 10 cm de largo, y una altura en la cruz de 70 cm a 1 m y un peso de 220 a 300 kg. Sin embargo, su principal característica  es su alargado hocico en forma de pequeña probóscide, que usa principalmente para alimentarse. Esta trompa resulta especialmente útil para recolectar plantas acuáticas en los pantanos donde suele pasar buena parte del día. También le sirve para tomar agua y, cuando son machos, para enfrentarse a sus rivales en la época de apareamiento.<br>Es un importante dispersor de semillas por lo cual juega un papel importante en la dinámica de los bosques tropicales donde habita",
+        img: "..\\res\\img\\animals\\chaco\\tapir\\tapir.png",
+        fact1: "Las hojas, hierbas y raíces constituyen su principal fuente de alimento.",
+        fact2: "Tienen un promedio de vida de unos 25 a 30 años.",
+        fact3: "Un tapir puede pesar desde 150 kg, a unos 320 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\chaco\\tapir\\0.png",
+            slide1: "..\\res\\img\\animals\\chaco\\tapir\\1.png",
+            slide3: "..\\res\\img\\animals\\chaco\\tapir\\2.png",
+        }
+    },
+    yacare: {
+        id: 3,
+        name: "Yacaré negro",
+        name_sci: "Caiman latirostris chacoensis",
+        desc: "El yacaré negro alcanza los 2,5 m normalmente de tamaño adulto, aunque ocasionalmente aparecen ejemplares mayores. El hocico es alargado y angosto; aún con la boca cerrada pueden observarse varios dientes.<br>La coloración es negra, o sea, como el azabache o muy oscura, con manchas bien marcadas en los flancos, la cola y la mandíbula inferior. El vientre es amarillento y carece de recubrimiento óseo; por el contrario, las escamas del lomo presentan osteodermos bien marcados.<br>Los ejemplares juveniles muestran un diseño de franjas negras sobre fondo marrón o amarillento, que se va oscureciendo paulatinamente. La coloración adulta sobreviene antes de la madurez sexual, que se alcanza alrededor de los 10 años de edad; la longitud media en ese momento ronda 120 cm.<br>Las patas son fuertes y cortas; los dedos de las posteriores están unidos por una membrana que facilita la natación, aunque la fuerza impulsora proviene en general de la musculosa cola, que representa el 30% de la longitud del cuerpo.",
+        img: "..\\res\\img\\animals\\chaco\\yacare\\yacare.png",
+        fact1: "Es exclusivamente carnívoro: ingiere principalmente caracoles y otros moluscos y crustáceos, además de peces, o inclusive pequeños carnivoros, como lobitos de rio o carpinchos.",
+        fact2: "Pueden vivir cerca de los 50 años.",
+        fact3: "El peso de un ejemplar adulto oscila entre los 40 y 70 kg",
+        slide: {
+            slide0: "..\\res\\img\\animals\\chaco\\yacare\\0.png",
+            slide1: "..\\res\\img\\animals\\chaco\\yacare\\1.png",
+            slide3: "..\\res\\img\\animals\\chaco\\yacare\\2.png",
+        }
+    },
+    yaguarete : {
+        id: 4,
+        name: "Yaguareté",
+        name_sci: "Panthera onca",
+        desc: " por su gran tamaño, su robusto y poderoso cuerpo y su lustroso pelaje manchado. Es el mayor felino de America. De aspecto pesado y robusto, está adaptado para cazar al acecho y usar la fuerza y la sopresa más que la velocidad. Posee una cola relativamente corta, orejas redondeadas y patas grandes. La hembra es, en general, más pequeña que el macho.<br>El pelaje del dorso es de color claro, de ocráceo hacia un dorado bronceado y el ventral y la parte interior de las extremidades poseen un color blancuzco. Las manchas de su pelaje, llamadas rosetas, poseen una gran variedad que los investigadores utilizan para identificar a los diferentes individuos.",
+        img: "..\\res\\img\\animals\\chaco\\yaguarete\\yaguarete.png",
+        fact1: "Es carnivoro, y es el depredador por naturaleza del tapir. Tambien come otros mamiferos como carpinchos, pecaríes o corzuelas. Adicionalmente, pueden cazar presas menores, como aves o cuises.",
+        fact2: "Tienen un promedio de vida de 12 a 15 años",
+        fact3: "Puede pesas desde unos 56 kg. a unos 96 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\chaco\\yaguarete\\0.png",
+            slide1: "..\\res\\img\\animals\\chaco\\yaguarete\\1.png",
+            slide3: "..\\res\\img\\animals\\chaco\\yaguarete\\2.png",
+        }
+    }
+    
+
     },
 }
 
