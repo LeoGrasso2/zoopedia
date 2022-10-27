@@ -230,7 +230,7 @@ function addCard(datos){
                                 </div>
                             </div>
                             <div class="card-right-body">
-                                <div class="card-right-desc">
+                                <div class="card-right-desc" id="style-2">
                                     ${datos.desc}
                                 </div>
                                 <hr>
