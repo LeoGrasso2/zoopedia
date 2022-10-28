@@ -186,7 +186,7 @@ let animales = {
             slide3: "..\\res\\img\\animals\\sierraspampeanas\\boa_vizcacheras\\2.png",
         },
     },
-        chinchilla:{
+    chinchilla:{
         id: 2,
         name: "Chinchilla",
         name_sci: "Chinchilla",
@@ -237,7 +237,7 @@ let animales = {
             id: 0,
             name: "Aguara Guazu",
             name_sci: "Chrysocyon brachyurus",
-            desc: "Chrysocyon brachyurus, llamado comúnmente aguará guazú, es una especie de mamífero carnívoro de la familia de los cánidos autóctono de las regiones de espesuras. Se encuentra en Argentina, Bolivia, Brasil, Paraguay y Perú, y está casi extinto en Uruguay.​Es el mayor de los cánidos de América del Sur. El aguará guazú es corpulento en comparación con otros cánidos silvestres, una impresión reforzada por la densidad de su pelaje y la distintiva melena de crines alrededor del cuello. Alcanza los 107 cm de altura a la cruz, y hasta los 145 cm de longitud, a los que hay que sumar unos 45 cm de cola. Puede alcanzar los 42 kg de peso. La estructura del cuerpo se asemeja a la de un zorro, aunque las patas largas le dan un aire desgarbado muy peculiar.",
+            desc: "Chrysocyon brachyurus, llamado comúnmente aguará guazú, es una especie de mamífero carnívoro de la familia de los cánidos autóctono de las regiones de espesuras. Se encuentra en Argentina, Bolivia, Brasil, Paraguay y Perú, y está casi extinto en Uruguay.<br>​Es el mayor de los cánidos de América del Sur. El aguará guazú es corpulento en comparación con otros cánidos silvestres, una impresión reforzada por la densidad de su pelaje y la distintiva melena de crines alrededor del cuello. Alcanza los 107 cm de altura a la cruz, y hasta los 145 cm de longitud, a los que hay que sumar unos 45 cm de cola. Puede alcanzar los 42 kg de peso. La estructura del cuerpo se asemeja a la de un zorro, aunque las patas largas le dan un aire desgarbado muy peculiar.",
             img: "..\\res\\img\\animals\\mesopotamia\\aguara_guazu\\aguara.png",
             fact1: "Es omnívoro y caza de manera oportunista ratas, armadillos, cuises, aves, otros pequeños vertebrados e insectos, complementando su dieta con frutos silvestres.",
             fact2: "En cautiverio, llegan a los 16 años de vida.",
@@ -252,11 +252,11 @@ let animales = {
             id: 1,
             name: "Carpincho",
             name_sci: "Hydrochoerus hydrochaeris",
-            desc: "El capibara, carpincho o chigüire ​ es una especie de roedor de la familia de los cávidos, nativa de Sudamérica. Es el roedor viviente de mayor tamaño y peso del mundo, del género Hydrochoerus.​ El único otro miembro existente de ese género es el capibara menor. Sus parientes cercanos incluyen a los conejillos de indias y los mocós, y está relacionado más lejanamente con el agutí, la chinchilla y el coipo. Habita humedales y bosques densos y vive cerca de cuerpos de agua. Es una especie muy social y se puede encontrar en grupos de hasta cien individuos, pero por lo general vive en grupos de diez a veinte individuos. El animal es cazado por su carne y piel y también por la grasa de su piel gruesa y grasosa.",
+            desc: "El capibara, carpincho o chigüire es una especie de roedor de la familia de los cávidos, nativa de Sudamérica. Es el roedor viviente de mayor tamaño y peso del mundo, del género Hydrochoerus.<br>El único otro miembro existente de ese género es el capibara menor. Sus parientes cercanos incluyen a los conejillos de indias y los mocós, y está relacionado más lejanamente con el agutí, la chinchilla y el coipo. Habita humedales y bosques densos y vive cerca de cuerpos de agua. Es una especie muy social y se puede encontrar en grupos de hasta cien individuos, pero por lo general vive en grupos de diez a veinte individuos. El animal es cazado por su carne y piel y también por la grasa de su piel gruesa y grasosa.",
             img: "..\\res\\img\\animals\\mesopotamia\\carpincho\\carpincho.png",
             fact1: "Son herbívoros, comen hierbas palustres, gramíneas y hiervas ribereñas. Se alimenta principalmente durante el atardecer y la noche.",
-            fact2: "Los carpinchos salvajes no suelen vivir más de 4 años. En cautiverio, llegan a los 10-12 años.",
-            fact3: "Pesan entre 35–66 kg",
+            fact2: "Su esperanza de vida es de unos 12 años, sin embargo en condiciones naturales se ve muy reducida, al ser una presa facil para los depredadores.",
+            fact3: "Pesan entre 35 y 66 kg.",
             slide: {
                 slide0: "..\\res\\img\\animals\\mesopotamia\\carpincho\\0.png",
                 slide1: "..\\res\\img\\animals\\mesopotamia\\carpincho\\1.png",
@@ -270,7 +270,7 @@ let animales = {
             desc: "El oso melero u oso hormiguero amazónico es una especie de tamandúa de Sudamérica. Es un animal solitario, de numerosos hábitats de selvas y de sabanas áridas. Se alimenta de hormigas, termitas y de abejas. Tiene fuertes garras que usa para romper nidos de insectos o para defenderse. Es una especie de oso que recuerda mucho al oso hormiguero. De hecho, la diferencia más notable entre ambos es que el segundo es considerablemente más grande que el primero. No es casualidad que el oso melero también es conocido como el oso hormiguero amazónico.",
             img: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\oso_melero.png",
             fact1: "La alimentación del oso melero la componen termitas arborícolas, especialmente, así como hormigas y otros invertebrados. También le gusta libar la miel de las abejas.",
-            fact2: "Su vida en cautiverio puede alcanzar a 9 años y 6 meses.",
+            fact2: "Su vida puede alcanzar a unos 9 años",
             fact3: "Pesan entre 1.5–8.4 kg",
             slide: {
                 slide0: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\0.png",
@@ -278,7 +278,191 @@ let animales = {
                 slide3: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\2.png",
             },
         },
-}
+        tucan: {
+            id: 3,
+            name: "Tucan",
+            name_sci: "Ramphastos toco",
+            desc: "Tiene un plumaje muy llamativo con el cuerpo muy negro, garganta blanca y un anillo ocular azul. La característica más destacable es, como siempre, su enorme pico amarillo con una mancha negra, el cual pese a parecer pesado es increíblemente ligero dado que su interior es prácticamente hueco. Suelen tener una longitud media de 63 centímetros, de los cuales el pico ocupa unos 20 cm .<br>Tienen dos dedos hacia delante y dos hacia atrás, de forma que se pueden agarrar mejor a las ramas. No existe dimorfismo sexual entre machos y hembras.<br>Su enorme pico tiene la función de regular la temperatura del cuerpo del ave, el pico absorbe el calor mientras el cuerpo permanece a temperatura estable",
+            img: "..\\res\\img\\animals\\mesopotamia\\tucan\\tucan.png",
+            fact1: "El alimento principal de la dieta de un tucán es la fruta, pero igualmente son omnívoros y también comen carne como pequeños lagartos e insectos.",
+            fact2: "Su promedio de vida está en veinte años.",
+            fact3: "Puede pesar desde 130 hasta 680 g",
+            slide: {
+                slide0: "..\\res\\img\\animals\\mesopotamia\\tucan\\0.png",
+                slide1: "..\\res\\img\\animals\\mesopotamia\\tucan\\1.png",
+                slide3: "..\\res\\img\\animals\\mesopotamia\\tucan\\2.png",
+            }
+            },
+        coati: {
+            id: 4,
+            name: "Coatí",
+            name_sci: "Nasua nasua",
+            desc: "Se caracteriza por su cabeza triangular, con el hocico alargado y la nariz puntiaguda y muy móvil. Las orejas son pequeñas y redondeadas. Las patas son cortas pero musculosas y poseen cinco dedos provistos de fuertes garras. La cola es bastante larga, gruesa en la base, disminuyendo gradualmente hacia la punta.<br>El pelaje es largo, tupido y su coloración varía no sólo geográficamente sino también entre individuos de un mismo grupo e incluso con la edad del ejemplar; el dorso es pardo amarillento a pardo oscuro, casi negro, mientras que el vientre es blancuzco a anaranjado fuerte. El rostro es oscuro, bordeado de blanco, con un par de manchas blancas debajo de los ojos que parecen “ojeras”; las orejas presentan un grueso reborde blanco. Las patas son oscuras y la cola tiene una serie de anillos oscuros, a veces poco evidentes. ",
+            img: "..\\res\\img\\animals\\mesopotamia\\coati\\coati.png",
+            fact1: "Su dieta omnívora incluye una amplia variedad de insectos, arañas, larvas, frutos, semillas y raíces; también consume pequeños mamíferos, pájaros, lagartijas e incluso carroña.",
+            fact2: "Su longevidad en estado salvaje es de 15 años.",
+            fact3: "Suelen pesar entre 3 y 5 kg.",
+            slide: {
+                slide0: "..\\res\\img\\animals\\mesopotamia\\coati\\0.png",
+                slide1: "..\\res\\img\\animals\\mesopotamia\\coati\\1.png",
+                slide3: "..\\res\\img\\animals\\mesopotamia\\coati\\2.png",
+            }
+            },
+    },
+    cuyo: {
+    gato_montes: {
+        id: 0,
+        name: "Gato montés",
+        name_sci: "Leopardus geoffroyi",
+        desc: " Por su apariencia y tamaño el Gato Montés puede confundirse con un gato doméstico, sobre todo en los frecuentes casos de melanismo. Mide entre 42 a 66 cm de largo (cabeza y cuerpo) más unos 24 a 36 cm de cola.<br>Posee un cuerpo robusto de pelaje corto y áspero. Dorsalmente el fondo es de color bayo o leonado grisáceo, más pálido en los costados, volviéndose casi blanco alrededor de los ojos, el hocico y las partes inferiores. El dorso y los costados presentan pequeñas manchas negras redondeadas o elípticas, que se transforman en bandas transversales en los costados de las patas y en anillos en la cola. Los ojos del Gato Montés son de color verde amarillento y el rinario es rosado.",
+        img: "..\\res\\img\\animals\\cuyo\\gato_montes\\gato_montes.png",
+        fact1: "Se alimenta de pequeños mamíferos, aves, reptiles, anfibios y peces.",
+        fact2: "El Gato Montés puede llegar a vivir hasta los 14 o 15 años en estado silvestre.",
+        fact3: "Su peso es de 2 a 6 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\cuyo\\gato_montes\\0.png",
+            slide1: "..\\res\\img\\animals\\cuyo\\gato_montes\\1.png",
+            slide3: "..\\res\\img\\animals\\cuyo\\gato_montes\\2.png",
+        }
+    },
+    halconcito_arg: {
+        id: 1,
+        name: "Halconcito argentino",
+        name_sci: "Spiziapteryx circumcincta",
+        desc: "Este falcónido es de pequeño tamaño, con alas cortas y cola redondeada, muy larga, con timoneras externas bas-tante más cortas que las centrales; las alas plegadas no llegan a la punta de la cola. Cabeza gris con ceja y línea malar blancas. Dorsal gris pardusco con estrías negras. Supracaudales blancas. Ventralmente gris con estrías pardas. Alas cortas y anchas, pardas con manchas blancas. Ventralmente, gris barrado de blanco. Las plumas centrales de la cola son negras, las laterales pardo oscuras con manchas blancas. Ventralmente, gris con barras blancas. Su vuelo tiende a ser mas bien lento.",
+        img: "..\\res\\img\\animals\\cuyo\\halconcito_arg\\halconcito_arg.png",
+        fact1: "Se alimenta de insectos (ortópteros, cigarras, escarabajos, etc.), lagartijas, pequeños mamíferos (ratones, cuises) y aves pequeñas.",
+        fact2: "Pueden vivir unos 10 años en condiciones optimas silvestres.",
+        fact3: "Pueden pesar de 120 a 300 gramos.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\cuyo\\halconcito_arg\\0.png",
+            slide1: "..\\res\\img\\animals\\cuyo\\halconcito_arg\\1.png",
+            slide3: "..\\res\\img\\animals\\cuyo\\halconcito_arg\\2.png",
+        }
+    },
+    lagarto_colorado: {
+        id: 2,
+        name: "Lagarto colorado",
+        name_sci: "Salvator rufescens",
+        desc: " Presenta un cuerpo cilíndrico, robusto, su cola larga y robusta. El largo entre el rostro y el ano (no largo total) es de 500 mm en machos adultos, las hembras son algo menores. Dorso color marrón avellano, con puntos más claros, vientre rojizo. Puede ser confundido con Salvator merianae, del cual se distingue por su coloración dorsal rojiza.<br>Cuando se siente amenazado, se queda inmóvil, calmándose en el ambiente, suele abrir la boca, emitiendo un silbido, para intentar intimidar al agresor.",
+        img: "..\\res\\img\\animals\\cuyo\\lagarto_colorado\\lagarto_colorado.png",
+        fact1: "Su alimentación es omnívora se alimenta principalmente de aves, pequeños mamíferos, insectos, moluscos, peces, anfibios y hasta frutas.",
+        fact2: "Puede vivir entre 15 y 20 años.",
+        fact3: "Pueden llegar a pesar más de 10 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\cuyo\\lagarto_colorado\\0.png",
+            slide1: "..\\res\\img\\animals\\cuyo\\lagarto_colorado\\1.png",
+            slide3: "..\\res\\img\\animals\\cuyo\\lagarto_colorado\\2.png",
+        }
+    },
+    loro_barranquero: {
+        id: 3,
+        name: "Loro barranquero",
+        name_sci: "Cyanoliseus patagonus",
+        desc: "La longitud promedio en las subespecies argentinas es de 42 cm, mientras que en la subespecie chilena es de 45 cm, con un rango, en esta última, de 43 a 47 cm.<br>Su cabeza y lomo son de color verde oliva oscuro. Presenta un anillo periocular de color blanco. La parte superior del pecho es blancuzca (solo en la raza de Chile), mientras que la parte inferior es verde oliva. Las plumas del abdomen, patas, lomo y supracaudales son de color desde amarillo hasta verde oliva (según la subespecie). La parte central del abdomen es rojo-anaranjada. Las subcaudales son de un tono amarillo oliváceo. Las cobertoras alares son verdes oliváceas, mientras que las infracobertoras son verdes obscuro. Las rémiges o primarias son azules, con barba interna grisácea. La cola es gris olivácea. El pico es gris oscuro, ganchudo y corto. Las patas son de color rosa pálido.",
+        img: "..\\res\\img\\animals\\cuyo\\loro_barranquero\\loro_barranquero.png",
+        fact1: "Suelen alimentarse de frutas y semillas fundamentalmente. Las verduras también forman parte de su dieta,",
+        fact2: "En condiciones óptimas, pueden llegar a vivir mas de 60 años.",
+        fact3: "Su peso oscila por los 300g.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\cuyo\\loro_barranquero\\0.png",
+            slide1: "..\\res\\img\\animals\\cuyo\\loro_barranquero\\1.png",
+            slide3: "..\\res\\img\\animals\\cuyo\\loro_barranquero\\2.png",
+        }
+    },
+    huron: {
+        id: 4,
+        name: "Hurón",
+        name_sci: "Mustela putorius furo",
+        desc: "Este animal posee un cuerpo alargado y flexible, con patas cortas, apto para moverse con rapidez por el fondo del bosque e introducirse dentro de las madrigueras de roedores y conejos, de los que se alimenta. La cabeza es pequeña, ancha y aplastada, y sus diminutas orejas redondeadas apenas sobresalen. La longitud de cabeza y cuerpo es de unos 30 a 50 cm, mientras que la cola (muy poblada) mide de 10 a 19 cm. Estas disponen de ocho glándulas mamarias con las que amamantan a sus crías durante el periodo de lactancia.<br>El color del pelaje varía entre gris, marrón y amarillento en el dorso, siendo negro en patas y vientre. Un par de bandas blancas rodean los ojos, aislando un característico antifaz oscuro en torno a ellos. También son blanquecinos el hocico y el borde de las orejas. Poseen un total de treinta y cuatro dientes.",
+        img: "..\\res\\img\\animals\\cuyo\\huron\\huron.png",
+        fact1: "Suelen alimentarse de frutas y semillas fundamentalmente. Las verduras también forman parte de su dieta,",
+        fact2: "Su esperanza de vida es de 5 a 8 años.",
+        fact3: "Su peso oscila por entre los 800g y 1.5kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\cuyo\\huron\\0.png",
+            slide1: "..\\res\\img\\animals\\cuyo\\huron\\1.png",
+            slide3: "..\\res\\img\\animals\\cuyo\\huron\\2.png",
+        }
+    },
+    },
+    pampaHumeda: {
+    cabra_montes: {
+        id: 0,
+        name: "Cabra montés",
+        name_sci: "Capra pyrenaica",
+        desc: "La cabra montés es una especie con fuerte dimorfismo sexual, al igual que muchos otros bóvidos. Las hembras miden unos 1,20 m de largo y 60 cm de altura en la cruz. Tiene cuernos bastante cortos y se parece bastante a una cabra doméstica, aunque la cabra doméstica tendría su origen en la cabra bezoar (Capra aegagrus) o en el marjor (Capra falconeri). Los machos, en cambio, pueden llegar a los 148 cm de largo y tener una altura de 77 cm en la cruz. Los cuernos de los machos son notablemente gruesos y pueden llegar a ser el triple de largos que los de las hembras. Están más separados entre sí que los cuernos de otras especies del género Capra. Los machos adultos tienen también una cara más alargada y la típica barba de chivo oscura bajo la mandíbula.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\cabra_montes\\cabra_montes.png",
+        fact1: "El alimento natural de la cabra es el pasto, árboles, uvas, heno, frutas y una pequeña cantidad de granos.",
+        fact2: "La longevidad de la cabra montes es de unos 15 años, pudiendo llegar incluso a los 20 años.",
+        fact3: "Las hembras pesan entre 30 y 45 kg, sin embargo los machos pueden llegar a pesar 120kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\cabra_montes\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\cabra_montes\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\cabra_montes\\2.png",
+        }
+    },
+    cabure: {
+        id: 1,
+        name: "Caburé",
+        name_sci: "Glaucidium brasilianum",
+        desc: "Mide entre 15-19 cm de largo. Las hembras son más grandes y pesadas que los machos. Especie extremadamente polimórfica con gran variación en la coloración de su plumaje presentando dos fases, grisácea y rojiza.<br>Con disco facial café claro y pequeñas marcas blancuzcas. Cejas claras, ojos amarillos y pico amarillo grisáceo. Cabeza café con rayas y manchas blancas. Una mancha negra a cada lado de la parte posterior del cuello, ambas comúnmente llamadas ojos falsos. Cuerpo en general café-grisáceo con rayas cafés. Cola café oscuro con barras claras. Tarsos emplumados hasta talones. La fase rojiza presenta el mismo patrón de coloración pero con tonos rojizos o café-anaranjados. Juveniles similares a los adultos pero con patrones de coloración clara.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\cabure\\cabure.png",
+        fact1: "Es carnívoro, se alimenta de otras aves como gorriones, pájaros cantores y, esporádicamente, de picaflores, además de ranas, lagartijas y pequeñas cobras.",
+        fact2: "En condiiciones mas optimas, pueden vivir mas de 10 años.",
+        fact3: "Pueden pesar entre 100 y 200 gr.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\cabure\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\cabure\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\cabure\\2.png",
+        }
+    },
+    comadreja: {
+        id: 2,
+        name: "Comadreja",
+        name_sci: "Didelphis albiventris",
+        desc: "El cuerpo está cubierto por un pelaje lanoso y espeso, blanco amarillento en la base y casi negro hacia la punta, entremezclado con largas cerdas blancas; el blanco amarillento del fondo del pelo predomina en los flancos y el negro en el dorso; el vientre es de color más claro. Existe una gran variación en el color del pelaje, pudiéndose incluso encontrar ejemplares casi totalmente negros o blancos. El rostro es blanco y presenta una banda negra frontal y dos bandas muy oscuras que rodean a los ojos. La cabeza es de forma triangular, con el hocico puntiagudo y terminado en un rinario rosado; las orejas, salvo la base que es negra, son de color carne muy claro. Las patas son completamente negras. La cola es muy prensil; está cubierta por abundantes pelos en la base y el resto por escasos pelitos cortos que dejan ver el color de las escamas, negro en la mitad proximal y blancuzco en la mitad distal. Los machos suelen medir entre 45 y 70 cm de longitud, mientras que las hembras suelen medir entre 41 y 60 cm de longitud, la cola mide entre 40 y 65 cm. La apariencia general recuerda a ratas, cerdos y zorros entre otros animales. Es solitaria y crepuscular o nocturna; si bien es de hábitos principalmente terrestres, suele trepar con agilidad, ayudándose con la cola; también es buena nadadora.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\comadreja\\comadreja.png",
+        fact1: "Es omnívora y tiene una dieta muy variada que incluye frutas, semillas, hojas, lombrices, insectos (cucarachas y hormigas), moluscos, ranas, aves (y sus huevos) y pequeños roedores",
+        fact2: "Viven entre 3 y 4 años.",
+        fact3: "El peso puede oscilar entre los 500 g y los 2 kg",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\comadreja\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\comadreja\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\comadreja\\2.png",
+        }
+    },
+    choique: {
+        id: 3,
+        name: "Choique patagónico",
+        name_sci: "Rhea pennata pennata",
+        desc: "Longitud: 98-110 cm. Pico pardo. Patas amarillentas. Cabeza y cuello pardo claro. Dorso y alas parduzco con los extremos de las plumas blancos. Ventralmente blanquecino. uede ser confiado dónde está acostumbrado a las personas, pero en otras áreas es cauteloso, corre fuerte y rápidamente. Se encuentran solos o en grupos, y los machos cuidan a los juveniles. Los adultos tienen manchas pálidas contrastantes en el cuerpo, las aves en su primer año son más simples. Localmente común en estepas, pajonales y páramos, en las montañas entre los 3000 y 4000 m de altura.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\choique\\choique.png",
+        fact1: "Se alimenta principalmente de hierbas y arbustos aprovechando frutos, flores, brotes y hojas tiernas.",
+        fact2: "Su longevidad es de unos 15 años.",
+        fact3: "Pesan aprox. unos 20 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\choique\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\choique\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\choique\\2.png",
+        }
+    },
+    venado_pampas: {
+        id: 4,
+        name: "Venado de las Pampas",
+        name_sci: "Ozotoceros bezoarticus",
+        desc: "El venado de las pampas es un ciervo de tamaño mediano que alcanzan una altura en la cruz de aproximadamente 70 a 75 cm de largo. Al nacer pesan 2 kg y presentan unas pintitas que desaparecen en la medida que van creciendo. La principal diferencia entre los sexos, es que los machos poseen dos astas, regularmente con 3 puntas cada uno, y como en todos los cérvidos, se caen y renuevan todos los años. Su pelaje es bayo con tinte oliváceo. Muestran invariablemente marcas blancas alrededor del hocico, en la cara interna de las orejas, la parte inferior del cuello, el vientre y la cara inferior de la cola, que es corta y tupida. La cara superior de la cola es más oscura que el resto del pelaje, y está acompañada en ocasiones por una línea del mismo color a lo largo de la espina dorsal. En la base del cuello y la cruz suele presentarse un remolino de pelaje más largo. Los ejemplares juveniles presentan una coloración más clara y jaspeado en los flancos.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\venado_pampas.png",
+        fact1: "Se alimenta de herbáceas, como diversas especies de gramíneas, leguminosas, y ciperáceas.",
+        fact2: "Suelen vivir unos 6 años al ser presa facil, pero pueden alcanzar los 10 años.",
+        fact3: "El peso de los adultos es de 25 a 40 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\2.png",
+        }
+    }
+    }
 }
 
 let regiones= ['chaco', 'cuyo', 'mesopotamia', 'noa', 'pampaHumeda', 'pampaSeca', 'patagonia', 'sierraspampeanas'];
