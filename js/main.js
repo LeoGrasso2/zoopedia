@@ -232,7 +232,53 @@ let animales = {
         },
     },
     },
-    
+    mesopotamia: {
+        aguara:{
+            id: 0,
+            name: "Aguara Guazu",
+            name_sci: "Chrysocyon brachyurus",
+            desc: "Chrysocyon brachyurus, llamado comúnmente aguará guazú, es una especie de mamífero carnívoro de la familia de los cánidos autóctono de las regiones de espesuras. Se encuentra en Argentina, Bolivia, Brasil, Paraguay y Perú, y está casi extinto en Uruguay.​Es el mayor de los cánidos de América del Sur. El aguará guazú es corpulento en comparación con otros cánidos silvestres, una impresión reforzada por la densidad de su pelaje y la distintiva melena de crines alrededor del cuello. Alcanza los 107 cm de altura a la cruz, y hasta los 145 cm de longitud, a los que hay que sumar unos 45 cm de cola. Puede alcanzar los 42 kg de peso. La estructura del cuerpo se asemeja a la de un zorro, aunque las patas largas le dan un aire desgarbado muy peculiar.",
+            img: "..\\res\\img\\animals\\mesopotamia\\aguara_guazu\\aguara.png",
+            fact1: "Es omnívoro y caza de manera oportunista ratas, armadillos, cuises, aves, otros pequeños vertebrados e insectos, complementando su dieta con frutos silvestres.",
+            fact2: "En cautiverio, llegan a los 16 años de vida.",
+            fact3: "Puede alcanzar los 42 kg de peso.",
+            slide: {
+                slide0: "..\\res\\img\\animals\\mesopotamia\\aguara_guazu\\0.png",
+                slide1: "..\\res\\img\\animals\\mesopotamia\\aguara_guazu\\1.png",
+                slide3: "..\\res\\img\\animals\\mesopotamia\\aguara_guazu\\2.png",
+            },
+        },  
+        carpincho:{
+            id: 1,
+            name: "Carpincho",
+            name_sci: "Hydrochoerus hydrochaeris",
+            desc: "El capibara, carpincho o chigüire ​ es una especie de roedor de la familia de los cávidos, nativa de Sudamérica. Es el roedor viviente de mayor tamaño y peso del mundo, del género Hydrochoerus.​ El único otro miembro existente de ese género es el capibara menor. Sus parientes cercanos incluyen a los conejillos de indias y los mocós, y está relacionado más lejanamente con el agutí, la chinchilla y el coipo. Habita humedales y bosques densos y vive cerca de cuerpos de agua. Es una especie muy social y se puede encontrar en grupos de hasta cien individuos, pero por lo general vive en grupos de diez a veinte individuos. El animal es cazado por su carne y piel y también por la grasa de su piel gruesa y grasosa.",
+            img: "..\\res\\img\\animals\\mesopotamia\\carpincho\\carpincho.png",
+            fact1: "Son herbívoros, comen hierbas palustres, gramíneas y hiervas ribereñas. Se alimenta principalmente durante el atardecer y la noche.",
+            fact2: "Los carpinchos salvajes no suelen vivir más de 4 años. En cautiverio, llegan a los 10-12 años.",
+            fact3: "Pesan entre 35–66 kg",
+            slide: {
+                slide0: "..\\res\\img\\animals\\mesopotamia\\carpincho\\0.png",
+                slide1: "..\\res\\img\\animals\\mesopotamia\\carpincho\\1.png",
+                slide3: "..\\res\\img\\animals\\mesopotamia\\carpincho\\2.png",
+            },
+        },
+        oso_melero:{
+            id: 2,
+            name: "Oso Melero",
+            name_sci: "Tamandua tetradactyla",
+            desc: "El oso melero u oso hormiguero amazónico es una especie de tamandúa de Sudamérica. Es un animal solitario, de numerosos hábitats de selvas y de sabanas áridas. Se alimenta de hormigas, termitas y de abejas. Tiene fuertes garras que usa para romper nidos de insectos o para defenderse. Es una especie de oso que recuerda mucho al oso hormiguero. De hecho, la diferencia más notable entre ambos es que el segundo es considerablemente más grande que el primero. No es casualidad que el oso melero también es conocido como el oso hormiguero amazónico.",
+            img: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\oso_melero.png",
+            fact1: "La alimentación del oso melero la componen termitas arborícolas, especialmente, así como hormigas y otros invertebrados. También le gusta libar la miel de las abejas.",
+            fact2: "Su vida en cautiverio puede alcanzar a 9 años y 6 meses.",
+            fact3: "Pesan entre 1.5–8.4 kg",
+            slide: {
+                slide0: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\0.png",
+                slide1: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\1.png",
+                slide3: "..\\res\\img\\animals\\mesopotamia\\oso_melero\\2.png",
+            },
+        },
+}
 }
 
 let regiones= ['chaco', 'cuyo', 'mesopotamia', 'noa', 'pampaHumeda', 'pampaSeca', 'patagonia', 'sierraspampeanas'];
