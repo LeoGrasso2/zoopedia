@@ -462,7 +462,162 @@ let animales = {
             slide3: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\2.png",
         }
     }
+    },
+    patagonia: {
+    mara_patagonica: {
+        id: 0,
+        name: "Mara patagónica",
+        name_sci: "Dolichotis patagonum",
+        desc: "Se caracteriza por su gran tamaño. El cuerpo es alargado y más ancho en la parte posterior. La cabeza es grande y angulosa, con ojos grandes y orejas alargadas. Las patas son largas y finas, con uñas fuertes y gruesas. La cola está presente, pero es muy reducida. El pelaje es corto y denso. La coloración general es parda amarillenta, más grisácea en el dorso, donde se oscurece hasta llegar a negro en las ancas, las cuales están atravesadas por una gruesa franja blanca. Los flancos, los costados de la cara y los muslos son de color ocre anaranjado. El vientre y la garganta son blancuzcos.<br>Vive en zonas semiáridas abiertas, como estepas, montes y pastizales. Prefiere ambientes llanos y con vegetación espaciada.",
+        img: "..\\res\\img\\animals\\patagonia\\mara_patagonica\\mara_patagonica.png",
+        fact1: "Se alimenta de hojas, tallos, raíces y cortezas de una gran variedad de vegetales.",
+        fact2: "Tienen una longevidad de 13 a 15 años.",
+        fact3: "Pesa aprox. unos 8 kg, pero en ciertos casos puede superar los 15kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\patagonia\\mara_patagonica\\0.png",
+            slide1: "..\\res\\img\\animals\\patagonia\\mara_patagonica\\1.png",
+            slide3: "..\\res\\img\\animals\\patagonia\\mara_patagonica\\2.png",
+        }
+    },
+    piche: {
+        id: 1,
+        name: "Piche",
+        name_sci: "Zaedyus pichiy",
+        desc: "Posee un caparazón aplastado, con placas pequeñas, labradas y de color claro; el caparazón tiene seis o siete bandas móviles y escasos pelos largos. El vientre y los flancos con pelaje largo y tupido.<br>El hocico es fino y las orejas muy pequeñas. La cola es relativamente corta y cónica, recubierta de pequeñas placas. Las patas son cortas y musculosas, con cinco dedos provistos de uñas curvas, largas y fuertes (especialmente las anteriores), que denotan su hábito excavador.",
+        img: "..\\res\\img\\animals\\patagonia\\piche\\piche.png",
+        fact1: "Su dieta está compuesta por insectos, gusanos y pequeños vertebrados como lagartijas o roedores. Ocasionalmente consumen también vegetales y musgos.",
+        fact2: "Pueden llegar a vivir hasta los 9 años.",
+        fact3: "Los ejemplares adultos no sobrepasan, por lo general, los 1,5 kg de peso.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\patagonia\\piche\\0.png",
+            slide1: "..\\res\\img\\animals\\patagonia\\piche\\1.png",
+            slide3: "..\\res\\img\\animals\\patagonia\\piche\\2.png",
+        }
+    },
+    ping_mag: {
+        id: 2,
+        name: "Pinguino magallánico",
+        name_sci: "Spheniscus magellanicus",
+        desc: "El Pingüino de Magallanes tiene cuerpo fusiforme y de gran hidrodinamia, adaptado para nadar, con plumaje negro en el dorso y blanco en pecho y abdomen. Tiene una altura de unos 70 centímetros. Con tamaño y apariencia similar al Pingüino de Humboldt, el Pingüino de Magallanes se diferencia del anterior porque tiene dos franjas negras enmarcando pecho y abdomen en lugar de una franja. A lo largo del recorrido de ellas hay motas de manchas negras. En la base del pico negro, hay piel color rosada. Las patas palmeadas son negras, moteadas con manchas rosadas.",
+        img: "..\\res\\img\\animals\\patagonia\\ping_mag\\ping_mag.png",
+        fact1: "Se alimentan de sepia, calamar, krill, y otros crustáceos.",
+        fact2: "En estado salvaje los magallánicos viven en promedio unos 25 años.",
+        fact3: "Tienen un peso de 2.5 a 6.5kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\patagonia\\ping_mag\\0.png",
+            slide1: "..\\res\\img\\animals\\patagonia\\ping_mag\\1.png",
+            slide3: "..\\res\\img\\animals\\patagonia\\ping_mag\\2.png",
+        }
+    },
+    zorro_col: {
+        id: 3,
+        name: "Zorro colorado",
+        name_sci: "Pseudalopex culpaeus",
+        desc: "Generalmente, la coloración dorsal es amarilla y negra con predominio del color negro; hocico, orejas y patas con un tono ferruginoso. Presentan una mancha color castaño claro en la parte posteroinferior del muslo y dos manchas negras en la cola, una dorsal cerca del inicio y otra en la punta. Algunos ejemplares presentan el pelaje totalmente amarillento debido a una mutación genética (efecto Samson) y no se trata de otra especie como vulgarmente se cree. Cuerpo relativamente grande y esbelto; cola larga y muy peluda. Cabeza pequeña, con hocico alargado y orejas grandes, de forma triangular.",
+        img: "..\\res\\img\\animals\\patagonia\\zorro_col\\zorro_col.png",
+        fact1: "Consume principalmente liebres, conejos europeos, chinchillas, cuises, aves y reptiles.",
+        fact2: "Pueden vivir entre 9 y 14 años de edad",
+        fact3: "En promedio, pesan entre 7 y 10 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\patagonia\\zorro_col\\0.png",
+            slide1: "..\\res\\img\\animals\\patagonia\\zorro_col\\1.png",
+            slide3: "..\\res\\img\\animals\\patagonia\\zorro_col\\2.png",
+        },
+    },
+    guanaco: {
+        id: 4,
+        name: "Guanaco",
+        name_sci: "Lama guanicoe",
+        desc: "Coloración general rojiza, con tinte anaranjado; la parte anterior del cuello, el vientre y la parte interna y posterior de las extremidades son de color blancuzco. La cabeza es pequeña, con orejas largas, puntiagudas y móviles; el labio superior hendido. El cuello es largo y arqueado, y las patas terminan en dos dedos o pezuñas; es ungulígrado.<br>Es un animal veloz que alcanza los 64 km/h, una adaptación clave para la supervivencia de esta especie. Como si fueran cabras de montaña, los guanacos son animales muy ágiles capaces de subir y bajar fácilmente las laderas empinadas.",
+        img: "..\\res\\img\\animals\\patagonia\\guanaco\\guanaco.png",
+        fact1: "Comen todo tipo de hierbas, tubérculos, musgos, semillas y frutas tiernas",
+        fact2: "Pueden vivir entre 20 y 25 años de edad",
+        fact3: "Un guanaco adulto llega a pesar, según la región, entre 70 y 120 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\patagonia\\guanaco\\0.png",
+            slide1: "..\\res\\img\\animals\\patagonia\\guanaco\\1.png",
+            slide3: "..\\res\\img\\animals\\patagonia\\guanaco\\2.png",
+        },
+    },
+    },
+    pampaSeca: {
+    cuis: {
+        id: 0,
+        name: "Cuis común",
+        name_sci: "Cavia aperea",
+        desc: "Se caracteriza por su cuerpo robusto, cabeza grande de perfil recto, ojos grandes, orejas pequeñas y cuello corto y grueso. El mentón está totalmente cubierto de pelos. Las patas son cortas, fuertes y tienen uñas agudas. La cola está ausente. El pelaje es corto y grueso. La coloración dorsal es parda olivácea jaspeada de negro, más clara en los flancos. El vientre es de color gris blancuzco o crema pálido y la garganta tiene una franja parda grisácea. Los incisivos son de color blanco.",
+        img: "..\\res\\img\\animals\\pampaSeca\\cuis\\cuis.png",
+        fact1: "Se alimenta exclusivamente de vegetales, en especial de hojas de gramíneas y en menor proporción de tallos, semillas y flores.",
+        fact2: "Su longevidad puede alcanzar los 7-8 años.",
+        fact3: "Pesan desde 250 hasta 500g.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaSeca\\cuis\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaSeca\\cuis\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaSeca\\cuis\\2.png",
+        }
+    },
+    inambu: {
+        id: 1,
+        name: "Inambú",
+        name_sci: "Nothura maculosa",
+        desc: "Mide entre 24-26 cm de longitud. Su coloración es muy variable, con la parte superior más oscura. Es más grande que Nothura minor. La coloración principal es parda ocrácea con manchas negras a lo que alude su nombre específico (maculosa, \"manchada\").Pico pardo. Patas pardas amarillentas. Iris amarillo o pardo anaranjado. Frente y corona oscuras con rayitas ocráceas. Cuello ocráceo con estrías oscuras. Garganta blanca. Parte dorsal parda manchada de negro, blanco y ocre. Pecho ocráceo canela con manchitas pardas. Flancos con barras pardas. Abdomen ocráceo. Alas, cobijas pardas rayadas de ocre rojizo. Remeras pardas con barras rojizas. Cola parda.",
+        img: "..\\res\\img\\animals\\pampaSeca\\inambu\\inambu.png",
+        fact1: "Es omnívora, con fuerte tendencia herbívora e insectívora.",
+        fact2: "Se estima una vida de 10-12 años",
+        fact3: "Pesa de 160 a 350 g.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaSeca\\inambu\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaSeca\\inambu\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaSeca\\inambu\\2.png",
+        }
+    },
+    morito: {
+        id: 2,
+        name: "Morito cariblanco",
+        name_sci: "Plegadis chihi",
+        desc: "El morito cariblanco tiene una longitud de 46 a 56 cm. Su plumaje es de color marrón rojizo brillante en la parte anterior del cuerpo y la cara interna de las alas. Este tono marrón se va oscureciendo en la parte posterior incluida la cola. Las alas son de color verdoso y broncíneo con tonos metalizados. Presenta una zona de piel desnuda en la cara, entre el ojo y la base del pico, de color rosado y que está enmarcada por una línea de plumas blancas; característica que le da el nombre a esta especie. Tienen los ojos de color rojo y las patas son también de este color. Los sexos no presentan diferencias en la apariencia física pero los machos son más grandes. El pico es de color grisáceo, midiendo entre 15 y 18 cm, siendo el de los machos de mayor tamaño. Cuando nacen están escasamente cubiertos por un plumón oscuro que pierden tras dos semanas y empiezan a crecerles plumas verdes y violáceas.",
+        img: "..\\res\\img\\animals\\pampaSeca\\morito\\morito.png",
+        fact1: "Son principalmente carnívoros y se alimentan de insectos, crustáceos, arañas, caracoles, sanguijuelas y anfibios. Los caracoles y babosas son sus presas principales y llegan a representar del 55 al 90% de su dieta.",
+        fact2: "Suele vivir entre 8 y 10 años.",
+        fact3: "Pesa entre 450 y 525 gramos.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaSeca\\morito\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaSeca\\morito\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaSeca\\morito\\2.png",
+        }
+    },  
+    venado_pampas: {
+        id: 3,
+        name: "Venado de las Pampas",
+        name_sci: "Ozotoceros bezoarticus",
+        desc: "El venado de las pampas es un ciervo de tamaño mediano que alcanzan una altura en la cruz de aproximadamente 70 a 75 cm de largo. Al nacer pesan 2 kg y presentan unas pintitas que desaparecen en la medida que van creciendo. La principal diferencia entre los sexos, es que los machos poseen dos astas, regularmente con 3 puntas cada uno, y como en todos los cérvidos, se caen y renuevan todos los años. Su pelaje es bayo con tinte oliváceo. Muestran invariablemente marcas blancas alrededor del hocico, en la cara interna de las orejas, la parte inferior del cuello, el vientre y la cara inferior de la cola, que es corta y tupida. La cara superior de la cola es más oscura que el resto del pelaje, y está acompañada en ocasiones por una línea del mismo color a lo largo de la espina dorsal. En la base del cuello y la cruz suele presentarse un remolino de pelaje más largo. Los ejemplares juveniles presentan una coloración más clara y jaspeado en los flancos.",
+        img: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\venado_pampas.png",
+        fact1: "Se alimenta de herbáceas, como diversas especies de gramíneas, leguminosas, y ciperáceas.",
+        fact2: "Suelen vivir unos 6 años al ser presa facil, pero pueden alcanzar los 10 años.",
+        fact3: "El peso de los adultos es de 25 a 40 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaHumeda\\venado_pampas\\2.png",
+        }
+    },    
+    gallareta: {
+        id: 4,
+        name: "Gallareta de alas blancas",
+        name_sci: "Fulica leucoptera",
+        desc: "Tiene una longitud total de unos 43 cm. Su nombre científico indica que tiene el ápice de las secundarias color blanco. Rabadilla lateral blanca y central negra. El escudete es redondeado y color amarillo o anaranjado, nunca rojo. El cuerpo es color negro, siendo más oscuro la cabeza y el cuello, el resto es apizarrado. Pico y patas amarillo. Iris rojo castaño",
+        img: "..\\res\\img\\animals\\pampaSeca\\gallareta\\gallareta.png",
+        fact1: "Es granívora. También se alimenta de cereales, como el trigo, avena, maíz, girasol, especialmente en invierno si les falta alimento en lagunas, o lagos que frecuenta. Complementa su dieta con insectos, larvas, moluscos.",
+        fact2: "Viven de 5 a 10 años.",
+        fact3: "Su peso es de entre 800g y 1.3 kg.",
+        slide: {
+            slide0: "..\\res\\img\\animals\\pampaSeca\\gallareta\\0.png",
+            slide1: "..\\res\\img\\animals\\pampaSeca\\gallareta\\1.png",
+            slide3: "..\\res\\img\\animals\\pampaSeca\\gallareta\\2.png",
+        }
+    }      
     }
+
 }
 
 let regiones= ['chaco', 'cuyo', 'mesopotamia', 'noa', 'pampaHumeda', 'pampaSeca', 'patagonia', 'sierraspampeanas'];
